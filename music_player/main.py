@@ -43,6 +43,8 @@ class MusicPlayer:
         self.song_list = tk.Listbox(self.root, bg="pink", fg="black", width=100, height=15)
         self.song_list.pack()
 
+        self.root.iconbitmap(resource_path("assets/play_button.ico"))
+        
         self.play_btn_image = tk.PhotoImage(file=resource_path("assets/play50.png"))
         self.pause_btn_image = tk.PhotoImage(file=resource_path("assets/pause50.png"))
         self.next_btn_image = tk.PhotoImage(file=resource_path("assets/next50.png"))
