@@ -13,7 +13,7 @@ PyInstaller.__main__.run([
     'main.py',
     '--onefile',
     '--windowed',
-    '--icon=assets/play_button.ico',  # <- ТОЗИ нов ред слага иконата на самия .exe файл!
+    '--icon=assets/play_button.ico',
     '--add-data=assets;assets',
     '--hidden-import=pygame'
 ])
