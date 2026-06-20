@@ -1,14 +1,18 @@
-# Custom MP3 Music Player
+# 🎵 Python Music Player
 
-A sleek desktop music player built using Python, Tkinter, and Pygame.
+A simple and elegant music player built using Python, Tkinter, and Pygame.
 
-## Features
-* **Custom GUI:** Clean interface built with Tkinter using custom image buttons.
-* **Folder Loading:** Easily select any folder on your computer to import MP3 tracks.
-* **Smart Playlist Navigation:** Supports Play, Pause, Next, and Previous track controls with automatic playlist looping.
-* **Executable Format:** Bundled into a standalone `.exe` for easy distribution.
+## ✨ Features
+* Select a local folder containing MP3 files.
+* Song playlist with automatic highlighting of the currently playing track.
+* Media Controls: Play, Pause, Next, and Previous track buttons.
+* Fully portable `.exe` application for Windows with embedded graphical assets.
 
-## How to Run Locally
-1. Clone the repository.
-2. Install the requirements: `pip install -r requirements.txt`
-3. Run `python main.py`
+## 🚀 How to Run It
+You can download the fully compiled and working application directly from the **Releases** section on the right. No Python installation or extra dependencies required!
+
+## 🛠️ Technologies Used
+* Python 3
+* Tkinter (Graphical User Interface)
+* Pygame Mixer (Audio Playback)
+* PyInstaller (Compilation to .exe)
